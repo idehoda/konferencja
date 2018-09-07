@@ -1,0 +1,249 @@
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1000; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.myBtn{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    position: relative;
+    padding: 0 40px;
+}
+
+.right{
+    text-align: center
+}
+.modal__image{
+    height: 500px;
+}
+.carousel__img{
+    height: 300px;
+    width: auto;
+}
+.owl-carousel{
+    overflow: hidden;
+    margin: 100px 0;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.carousel__item{
+    text-align: center;
+}
+.carousel__more{
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top:50%;
+    left:50%;
+    opacity: 0;
+    transition: .5s all;
+}
+.carousel__more:hover{
+    opacity: 1;
+}
+.carousel__more:hover + .speaker__info {
+  
+  }
+  .vertical__list{
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-evenly;
+      padding: 0;
+      margin-right:40px;
+      margin-bottom: 30px;
+  }
+  .vertical__list__item{
+    /* flex-grow: 1;
+    flex-basis: 0; */
+    transition: all .5s;
+  }
+  .vertical__list__item:hover{
+    transform: scale(1.1)
+}
+  .img__bottom{
+      height: 200px;
+  }
+.foot{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+    padding: 20px;
+    background-color: #333;
+}
+.footer > * {
+    list-style-type: none;
+}
+.form__link{
+    /* margin: 0 120px; */
+}
+.form__link{
+    color: #fff;
+    /* text-decoration: underline;     */
+    border-bottom: 2px solid #fff;
+    padding-bottom: 10px;
+}
+
+
+/* elminate white stripe to the right */
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+h4,h3,h2{
+    line-height: 2;
+}
+
+.wrap{    
+    color: #fff;
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url('../img/images/footer3.jpg');
+    /* background: url('../conf-data/img/1.jpg'); */
+    
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center; 
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 200px 0;
+    margin-bottom: 40px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;    
+}
+.header__text{
+    
+    max-width: 960px;
+}
+h1,h2,h3,h4,h5{
+    margin: 0;
+}
+.section-title{
+    font-size: 48px;  
+}
+.sponsors__flex{
+    padding: 65px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-left: 90px;
+    align-items: center;
+}
+.logo__text{
+    padding-top: 10px;
+    text-align: center;
+    color: #763e37;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.fullwidth-section{
+    margin-bottom: 70px;
+}
+/* .middle__header > * {
+    color: #444;
+} */
+
+.DodgerBlue{
+    background-color:DodgerBlue;
+    font-size: 32px;
+}
+.gray{
+    background-color:#9fbfdf ;
+}
+.no-margin{
+    margin-top: 0 !important;
+    margin-bottom: 45px;
+}
+.titled{
+    text-decoration: underline;
+    font-size: 26px;
+    color: #eee;
+}
+.subtitled{
+    color: #fff;
+    font-size: 18px;
+}
+.speaker__institution{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    position: relative;
+}
+.pad{
+    padding: 50px;
+}
+.sponsors__flex--one{
+    padding-left: 0;
+}
+.speaker__name{
+    margin: 20px 0;
+    font-size: 18px;
+}
+.carousel__img{
+    border-radius: 10px;
+}
+.modal__image{
+    border-radius: 20px;
+}
+.modal__desc{
+    padding: 40px;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 1.8;
+}
+.modal__title{
+    padding: 0 60px;
+    margin-top: 20px;
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+.small{
+    border-radius: 20px;
+    width:80%;
+    height: auto;
+}

@@ -1,0 +1,526 @@
+
+    /* Ustawienia ogólne */
+
+    html, body {
+        font-size: 16px;
+        font-family: Lato, sans-serif;    }
+
+    @media (max-width: 499px) {
+        html, body {
+            font-size: 14px;
+        }
+    }
+
+    
+    .section-header {
+        left: -1.09375rem;
+        width: calc(100% + 2.1875rem);
+        padding: 9px 1.09375rem 9px 1.09375rem;
+        font-size: 1.0000025rem;
+    }
+
+    .section-header.section-header--underlined {
+        padding: 9px 1.09375rem 8px 1.09375rem;
+    }
+
+    .subheader {
+        font-size: 0.7499975rem;
+    }
+
+    .subheader--full {
+        font-size: 0.7499975rem;
+    }
+
+    .subheader--full--highlight {
+        font-size: 0.875rem;
+    }
+
+    .section-wrapper {
+        padding: 10px 1.09375rem 1.09375rem 1.09375rem;
+    }
+
+    .form-control {
+        font-size: 0.875rem;
+    }
+
+    .label-wrap-text, .activities__name, .lectures__name, .additional__name, .accommodation__info__name, .accommodation__if__label {
+        margin-left: 1.49975rem;
+    }
+
+    .label-wrap-text.nv_checkbox_off:before, .nv_checkbox_off.activities__name:before, .nv_checkbox_off.lectures__name:before, .nv_checkbox_off.additional__name:before, .nv_checkbox_off.accommodation__info__name:before, .nv_checkbox_off.accommodation__if__label:before, .label-wrap-text.nv_checkbox_on:before, .nv_checkbox_on.activities__name:before, .nv_checkbox_on.lectures__name:before, .nv_checkbox_on.additional__name:before, .nv_checkbox_on.accommodation__info__name:before, .nv_checkbox_on.accommodation__if__label:before {
+        left: -1.49975rem;
+    }
+
+    .label-wrap-text.nv_radio_off:before, .nv_radio_off.activities__name:before, .nv_radio_off.lectures__name:before, .nv_radio_off.additional__name:before, .nv_radio_off.accommodation__info__name:before, .nv_radio_off.accommodation__if__label:before, .label-wrap-text.nv_radio_on:before, .nv_radio_on.activities__name:before, .nv_radio_on.lectures__name:before, .nv_radio_on.additional__name:before, .nv_radio_on.accommodation__info__name:before, .nv_radio_on.accommodation__if__label:before {
+        left: -1.49975rem;
+    }
+
+    .label-wrap-text-sm {
+        margin-left: 1.3125rem;
+    }
+
+    .label-wrap-text-sm.nv_radio_on:before, .label-wrap-text-sm.nv_radio_off:before {
+        left: -1.3125rem;
+    }
+
+    .label-wrap-text-sm {
+        margin-left: 1.4rem;
+    }
+
+    .label-wrap-text-sm.nv_checkbox_on:before, .label-wrap-text-sm.nv_checkbox_off:before {
+        left: -1.4rem;
+    }
+
+    .section-header + .space-header-input {
+        margin-top: 0.6250125rem;
+    }
+
+    .pass-validator {
+        margin-left: 1.49975rem;
+    }
+
+    .pass-validator + .help-block {
+        margin-left: 1.4875rem !important;
+    }
+
+    .pass-label {
+        margin-left: 1.49975rem;
+    }
+
+    .activities__info, .additional__info, .lectures__info {
+        margin-left: 1.49975rem;
+    }
+
+    .accommodation__info__desc {
+        padding-left: 1.49975rem;
+    }
+
+    .accommodation__info__spec {
+        padding-left: 1.49975rem;
+    }
+
+    .accommodation__header--no-line {
+        font-size: 0.7499975rem;
+    }
+
+    .charges-table__sum td[colspan="2"] .charges-table__sum-info {
+            font-size: 0.7499975rem;
+    }
+
+    .charges-table__currency-select__row {
+            font-size: 0.7499975rem;
+    }
+
+    .pmd__confirmations--header {
+        font-size: 0.7499975rem;
+    }
+
+    .languages_icon_text {
+        font-size: 0.875rem;
+    }
+
+    .languages a.languages_name {
+        font-size: 0.875rem;
+    }
+
+    .btn-check {
+        padding: 0.175rem 0.875rem;
+    }
+
+    .btn-send {
+        font-size: 0.984375rem;
+    }
+
+    .btn-next-participant {
+        margin-top: 1.09375rem;
+    }
+
+    .nv-select .charges-table__currency-select__select {
+        font-size: 0.7499975rem;
+    }
+
+    .has-error .help-block {
+        font-size: 0.875rem;
+    }
+
+    .section-wrapper {
+        font-size: 1.0000025rem;
+    }
+
+    select, label, p, table, .form-control {
+        font-size: 1.0000025rem;
+    }
+
+    .subheader, .subheader--full, .accommodation__header--no-line {
+        font-size: 0.875rem;
+    }
+
+    .subheader--full--highlight {
+        font-size: 1.0000025rem;
+    }
+
+    .section-header {
+        font-size: 1.12499625rem;
+    }
+
+    .btn-send {
+        font-size: 1.1244625rem;
+    }
+
+    .label-wrap-text, .activities__name, .lectures__name, .additional__name, .accommodation__info__name, .accommodation__if__label {
+        margin-left: 1.640625rem;
+    }
+
+    .label-wrap-text.nv_radio_off:before, .nv_radio_off.activities__name:before, .nv_radio_off.lectures__name:before, .nv_radio_off.additional__name:before, .nv_radio_off.accommodation__info__name:before, .nv_radio_off.accommodation__if__label:before, .label-wrap-text.nv_radio_on:before, .nv_radio_on.activities__name:before, .nv_radio_on.lectures__name:before, .nv_radio_on.additional__name:before, .nv_radio_on.accommodation__info__name:before, .nv_radio_on.accommodation__if__label:before {
+        top: 5px;
+        left: -1.640625rem;
+    }
+
+    .label-wrap-text.nv_checkbox_on:before, .nv_checkbox_on.activities__name:before, .nv_checkbox_on.lectures__name:before, .nv_checkbox_on.additional__name:before, .nv_checkbox_on.accommodation__info__name:before, .nv_checkbox_on.accommodation__if__label:before, .label-wrap-text.nv_checkbox_off:before, .nv_checkbox_off.activities__name:before, .nv_checkbox_off.lectures__name:before, .nv_checkbox_off.additional__name:before, .nv_checkbox_off.accommodation__info__name:before, .nv_checkbox_off.accommodation__if__label:before {
+        top: 4px;
+        left: -1.640625rem;
+    }
+
+    .pass-label {
+        margin-left: 1.640625rem;
+    }
+
+    .activities__info, .additional__info, .lectures__info {
+        margin-left: 1.640625rem;
+    }
+
+    .accommodation__info__desc, .accommodation__info__spec {
+        padding-left: 1.640625rem;
+    }
+
+    .charges-table__header {
+        font-size: 0.875rem;
+    }
+
+    .charges-table__sum td[colspan="2"] .charges-table__sum-info {
+        font-size: 0.875rem;
+    }
+
+    .charges-table__sum-info {
+        font-size: 0.875rem;
+    }
+
+    .charges-table__currency-select__row {
+        font-size: 0.875rem;
+    }
+
+    .pmd__confirmations--header {
+        font-size: 0.875rem;
+    }
+
+    .alert__box__icon {
+        font-size: 1.75rem;
+        margin-top: -0.875rem;
+        width: 1.75rem;
+        height: 1.75rem;
+    }
+
+    .alert__box__text {
+        margin-left: 2.3625rem;
+    }
+
+    
+
+
+    form * {
+            }
+
+    body {
+        background-color: #FFFFFF;
+        color: #444444;
+    }
+
+    @media (min-width: 768px) {
+        .dropdown-menu .dropdown-menu {
+            margin-top: -39px;
+        }
+    }
+
+    /* Tytuły z wariantami */
+
+    .section-header,
+    .color-primary {
+        color: #AB3315;
+    }
+
+    .section-header--underlined span:after,
+    .section-header--line-left span:after,
+    .pmd__confirmations--header:after {
+        border-color: #AB3315;
+    }
+
+
+
+    /* Podtytuły z wariantami */
+
+    .subheader,
+    .subheader--full,
+    .subheader--full--highlight,
+    .subheader:after,
+    .subheader--full:after,
+    .charges-table__header,
+    .charges-table
+    .charges-table__sum-blue,
+    .charges-table td.charges-table__sum-blue:before,
+    .charges-table__header--line:after,
+    .pmd__confirmations--header,
+    .accommodation__header--no-line {
+        color: #AB3315;
+    }
+
+    .subheader:after,
+    .subheader--full:after,
+    .charges-table__sum-blue:before,
+    .charges-table__header--line:after {
+        border-color: #AB3315;
+    }
+
+
+
+    /* Kolor obramowania tytułów i podtytułów */
+
+    .section-header,
+    .subheader,
+    .subheader--full,
+    .subheader--full--highlight,
+    .accommodation__header--no-line,
+    .accommodation__header--no-line:after,
+    .accommodation__rooms,
+    .payment__img--wrapp,
+    .charges-table__header {
+        border-color: #D2D2D2;
+    }
+
+
+
+    /* Szerokość formularza */
+
+    .container-fluid--max-width {
+                max-width: 800px;
+    }
+
+
+
+    /* Tło strony */
+
+            .section-wrapper,
+        .section-wrapper--consents {
+            background: #ecf0f1;
+            border: 1px solid #D2D2D2;
+            display: block;
+        }
+    
+
+        .section-header {
+        background: #ecf0f1;
+    }
+    
+
+
+    /* Navbar */
+
+    .navbar-nav > .active > a::before {
+        background-color: #AB3315;
+    }
+
+    .navbar-button {
+        background-color: #AB3315 !important;
+        border: 1px solid #AB3315 !important;
+        color: #FFFFFF !important;
+    }
+
+
+
+    /* Nagłówek podstrony */
+
+    .page-header {
+        color: #AB3315;
+    }
+
+
+    /* Przyciski */
+
+    .btn:hover, .btn:focus, .btn.focus {
+        color: #ffffff;
+    }
+
+
+    .btn,
+    .btn-primary,
+    .btn-primary:hover,
+    .btn-primary:active,
+    .btn-primary:focus,
+    .btn-primary:active:focus,
+    .btn-primary.active:focus,
+    .btn-primary:active.focus,
+    .btn-primary.active.focus,
+    .open > .dropdown-toggle.btn-primary:hover,
+    .open > .dropdown-toggle.btn-primary:focus,
+    .open > .dropdown-toggle.btn-primary.focus,
+    .btn-number,
+    .btn-trans,
+    .btn-trans:hover,
+    .btn-number:hover {
+        background-color: #AB3315; /* tpl_btn_bg_color */
+        border: 1px solid #AB3315; /* tpl_btn_bg_color */
+        color: #FFFFFF;
+    }
+
+    .btn:hover,
+    .btn.animated:hover {
+        transition: opacity .2s;
+        opacity: .8 !important;
+    }
+
+    .btn-transparent,
+    .btn-transparent:hover,
+    .btn-transparent:active,
+    .btn-transparent:focus {
+        color: #AB3315;
+        background: transparent;
+    }
+
+    .btn-number,
+    .btn-number:hover {
+        font-size: 10px;
+        padding: 13px 13px 9px 9px;
+        border: 0;
+    }
+
+    .btn-trans{
+        border-radius: 0;
+    }
+
+    .btn-trans:active,
+    .btn-trans:visited,
+    .btn-trans:focus{
+        padding: 3px 11px;
+        background-color: #AB3315; /* tpl_btn_bg_color */
+        border: 1px solid #AB3315; /* tpl_btn_bg_color */
+        color: #FFFFFF;
+    }
+
+    .btn-trans:disabled,
+    .btn-trans.disabled,
+    .btn-trans:disabled:hover,
+    .btn-trans.disabled:hover {
+        color: #fff;
+        border-color: #bbb;
+        background: #bbb;
+    }
+
+
+    /* Pola formularza */
+
+    input,
+    textarea,
+    select:not(.ui-datepicker-month):not(.ui-datepicker-year),
+    .form-control,
+    .nv-select,
+    .nv_pass--result,
+    .persons-select__input[readonly] {
+        background: #ffffff;
+    }
+
+    input,
+    textarea,
+    select:not(.ui-datepicker-month):not(.ui-datepicker-year),
+    .form-control,
+    .nv-select {
+        border: 1px solid #c0c0c0;
+    }
+
+    div.intl-tel-input.inside .flag-dropdown {
+        border: 1px solid #c0c0c0;
+    }
+
+    .input-group-addon {
+        border: 1px solid #c0c0c0;
+    }
+
+    .nv_pass--result {
+        border-top: 1px solid #c0c0c0;
+        border-bottom: 1px solid #c0c0c0;
+    }
+
+    .persons-select__input,
+    .charges-table__currency-select__select,
+    .nv-select select {
+        border: none !important;
+    }
+
+    input,
+    textarea,
+    select:not(.ui-datepicker-month):not(.ui-datepicker-year),
+    .form-control,
+    .nv-select {
+        color: #666666;
+    }
+
+    .help-icon--right,
+    .help-icon--left{
+        color: #AB3315;
+    }
+
+
+
+    /* Flagi w pasku nagłówka */
+
+    .flag {
+        display: inline-block;
+        height: 13px;
+        width: 20px;
+        background: #555 url('templates/pub08-1.0/images/icon_languages_1.png') no-repeat;
+        background-position: 0 0;
+        position: relative;
+        top: 5px;
+    }
+
+    .flag__grayed {
+        background: #555 url('templates/pub08-1.0/images/icon_languages_2.png') no-repeat;
+    }
+
+    .flag__pl {
+        background-position: 0 0;
+    }
+
+    .flag__en {
+        background-position: -24px 0;
+    }
+
+    .flag__de {
+        background-position: -48px 0;
+    }
+
+    .flag__ru {
+        background-position: -144px 0;
+    }
+
+    .flag__it {
+        background-position: -96px 0;
+    }
+
+    .flag__fr {
+        background-position: -72px 0;
+    }
+
+    .flag__es {
+        background-position: -120px 0;
+    }
+
+
+    .section-title::after {
+        background-color: #AB3315;
+    }
+
+    .content-box__icon {
+        background-color: #AB3315;
+        color: #FFFFFF;
+    }
+
+    

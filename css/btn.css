@@ -1,0 +1,206 @@
+
+.footer__btn {
+    color: white;
+    padding: 1.2em calc(0.7em * 1.2);
+    display: inline-block;
+    border: 3px solid transparent;
+    position: relative;
+    font-size: 1.5em;
+    cursor: pointer;
+    letter-spacing: 0.07em;
+    margin-top: 40px;
+  }
+.footer__btn .text {
+    transform: translate3d(0, 0.7em, 0);
+    display: block;
+    transition: transform 0.4s cubic-bezier(0.2, 0, 0, 1) 0.4s;
+  }
+.footer__btn:after {
+    position: absolute;
+    content: '';
+    bottom: -3px;
+    left: calc(0.7em * 1.2);
+    right: calc(0.7em * 1.2);
+    height: 3px;
+    background: #fff;
+    transition: transform 0.8s cubic-bezier(1, 0, 0.37, 1) 0.2s, right 0.2s cubic-bezier(0.04, 0.48, 0, 1) 0.6s, left 0.4s cubic-bezier(0.04, 0.48, 0, 1) 0.6s;
+    transform-origin: left;
+  }
+  .line {
+    position: absolute;
+    background: #fff;
+  }
+  .line.-right, .line.-left {
+    width: 3px;
+    bottom: -3px;
+    top: -3px;
+    transform: scale3d(1, 0, 1);
+  }
+  .line.-top, .line.-bottom {
+    height: 3px;
+    left: -3px;
+    right: -3px;
+    transform: scale3d(0, 1, 1);
+  }
+  .line.-right {
+    right: -3px;
+    transition: transform 0.1s cubic-bezier(1, 0, 0.65, 1.01) 0.23s;
+    transform-origin: top;
+  }
+  .line.-top {
+    top: -3px;
+    transition: transform 0.08s linear 0.43s;
+    transform-origin: left;
+  }
+  .line.-left {
+    left: -3px;
+    transition: transform 0.08s linear 0.51s;
+    transform-origin: bottom;
+  }
+  .line.-bottom {
+    bottom: -3px;
+    transition: transform 0.3s cubic-bezier(1, 0, 0.65, 1.01);
+    transform-origin: right;
+  }
+.footer__btn:hover .text, .footer__btn:active .text {
+    transform: translate3d(0, 0, 0);
+    transition: transform 0.6s cubic-bezier(0.2, 0, 0, 1) 0.4s;
+  }
+.footer__btn:hover:after, .footer__btn:active:after {
+    transform: scale3d(0, 1, 1);
+    right: -3px;
+    left: -3px;
+    transform-origin: right;
+    transition: transform 0.2s cubic-bezier(1, 0, 0.65, 1.01) 0.17s, right 0.2s cubic-bezier(1, 0, 0.65, 1.01), left 0s 0.3s;
+  }
+.footer__btn:hover .line, .footer__btn:active .line {
+    transform: scale3d(1, 1, 1);
+  }
+.footer__btn:hover .line.-right, .footer__btn:active .line.-right {
+    transition: transform 0.1s cubic-bezier(1, 0, 0.65, 1.01) 0.2s;
+    transform-origin: bottom;
+  }
+.footer__btn:hover .line.-top, .footer__btn:active .line.-top {
+    transition: transform 0.08s linear 0.4s;
+    transform-origin: right;
+  }
+.footer__btn:hover .line.-left, .footer__btn:active .line.-left {
+    transition: transform 0.08s linear 0.48s;
+    transform-origin: top;
+  }
+.footer__btn:hover .line.-bottom, .footer__btn:active .line.-bottom {
+    transition: transform 0.5s cubic-bezier(0, 0.53, 0.29, 1) 0.56s;
+    transform-origin: left;
+  }
+.footer__btn, .footer__btn:active, .footer__btn:visited, .footer__btn:link, a:hover {
+    text-decoration: none;
+    color: #fff;
+  }
+
+
+
+
+
+
+  
+.ifooter__btn {
+  color: #444;
+  padding: 1.2em calc(0.7em * 1.2);
+  display: inline-block;
+  border: 3px solid transparent;
+  position: relative;
+  font-size: 1.5em;
+  cursor: pointer;
+  letter-spacing: 0.07em;
+  margin-top: 40px;
+}
+.ifooter__btn .itext {
+  transform: translate3d(0, 0.7em, 0);
+  display: block;
+  transition: transform 0.4s cubic-bezier(0.2, 0, 0, 1) 0.4s;
+}
+.ifooter__btn:after {
+  position: absolute;
+  content: '';
+  bottom: -3px;
+  left: calc(0.7em * 1.2);
+  right: calc(0.7em * 1.2);
+  height: 3px;
+  color: #444 ;
+  transition: transform 0.8s cubic-bezier(1, 0, 0.37, 1) 0.2s, right 0.2s cubic-bezier(0.04, 0.48, 0, 1) 0.6s, left 0.4s cubic-bezier(0.04, 0.48, 0, 1) 0.6s;
+  transform-origin: left;
+}
+.iline {
+  position: absolute;
+  color: #444;
+}
+.iline.-right, .iline.-left {
+  width: 3px;
+  bottom: -3px;
+  top: -3px;
+  transform: scale3d(1, 0, 1);
+}
+.iline.-top, .iline.-bottom {
+  height: 3px;
+  left: -3px;
+  right: -3px;
+  transform: scale3d(0, 1, 1);
+}
+.iline.-iright {
+  right: -3px;
+  transition: transform 0.1s cubic-bezier(1, 0, 0.65, 1.01) 0.23s;
+  transform-origin: top;
+}
+.iline.-itop {
+  top: -3px;
+  transition: transform 0.08s linear 0.43s;
+  transform-origin: left;
+}
+.iline.-ileft {
+  left: -3px;
+  transition: transform 0.08s linear 0.51s;
+  transform-origin: bottom;
+}
+.iline.-ibottom {
+  bottom: -3px;
+  transition: transform 0.3s cubic-bezier(1, 0, 0.65, 1.01);
+  transform-origin: right;
+}
+.ifooter__btn:hover .itext, .ifooter__btn:active .itext {
+  transform: translate3d(0, 0, 0);
+  transition: transform 0.6s cubic-bezier(0.2, 0, 0, 1) 0.4s;
+}
+.ifooter__btn:hover:after, .ifooter__btn:active:after {
+  transform: scale3d(0, 1, 1);
+  right: -3px;
+  left: -3px;
+  transform-origin: right;
+  transition: transform 0.2s cubic-bezier(1, 0, 0.65, 1.01) 0.17s, right 0.2s cubic-bezier(1, 0, 0.65, 1.01), left 0s 0.3s;
+}
+.ifooter__btn:hover .iline, .ifooter__btn:active .iline {
+  transform: scale3d(1, 1, 1);
+}
+.ifooter__btn:hover .iline.-iright, .ifooter__btn:active .iline.-iright {
+  transition: transform 0.1s cubic-bezier(1, 0, 0.65, 1.01) 0.2s;
+  transform-origin: bottom;
+}
+.ifooter__btn:hover .iline.-top, .ifooter__btn:active .iline.-top {
+  transition: transform 0.08s linear 0.4s;
+  transform-origin: right;
+}
+.ifooter__btn:hover .iline.-left, .ifooter__btn:active .iline.-ileft {
+  transition: transform 0.08s linear 0.48s;
+  transform-origin: top;
+}
+.ifooter__btn:hover .iline.-ibottom, .ifooter__btn:active .iline.-ibottom {
+  transition: transform 0.5s cubic-bezier(0, 0.53, 0.29, 1) 0.56s;
+  transform-origin: left;
+}
+.ifooter__btn, .ifooter__btn:active, .ifooter__btn:visited, .ifooter__btn:link, a:hover {
+  text-decoration: none;
+  color: #444 ;
+}
+
+
+
+  
